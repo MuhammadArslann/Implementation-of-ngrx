@@ -1,0 +1,16 @@
+<table border="2px" style="margin: auto; width: 500px; margin-top: 6%;">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+            <th>Contact</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let user of users">
+            <td>{{user.name}}</td>
+            <td>{{user.city}}</td>
+            <td>{{user.contact}}</td>
+        </tr>
+    </tbody>
+</table>
